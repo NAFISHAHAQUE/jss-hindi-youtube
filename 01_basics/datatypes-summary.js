@@ -23,3 +23,20 @@ const myfunction=function(){
 }
 
 console.log(typeof myfunction);
+//********************************************************
+//stack(primitive), heap(non-primitive)
+let myname="nafishadotcom"
+let anothername=myname
+anothername="nafishahaque"
+console.log(myname);
+console.log(anothername);
+let userOne={
+    email:"asdfghj.com",
+    upi:"sbi123",
+}
+
+let userTwo= userOne
+userTwo.email= "hjkghj.com"
+console.log(userOne.email);
+console.log(userTwo.email);
+
