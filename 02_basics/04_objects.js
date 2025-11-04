@@ -62,8 +62,8 @@ const {courseinstructor:instructor}=course          //here u can see thst we can
 //console.log(courseinstructor);
 console.log(instructor);
 
-{
-    "name": "nafisha",
-    "country": "india",                 //it is basically a JSON
-    "age": "twelve"
-}
+// {
+//     "name": "nafisha",
+//     "country": "india",                 //it is basically a JSON
+//     "age": "twelve"
+// }
