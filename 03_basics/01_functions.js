@@ -47,3 +47,25 @@ function loginusermessage(username="abhi"){
     return `${username} just logged in`
 }
 console.log(loginusermessage());
+
+////////////////////////////////
+function calculatecarprice(...num1){               //here ... is rest operator, agr hm ye nhi lgayenge to array ka sirf num1 print hoga, sb nhi
+    return num1;
+}
+console.log(calculatecarprice(200, 300, 400))
+//
+function calculatecarprice(val1, val2, ...num1){               //here ... is rest operator, agr hm ye nhi lgayenge to array ka sirf num1 print hoga, sb nhi
+    return num1;                                               //after writing val1,val2 it takes 200, 300 and then only output is=400,500 as an element
+}
+console.log(calculatecarprice(200, 300, 400, 500))
+//
+
+const user={
+    username: "nafisha",
+    prices: 199
+}
+function handledobject(anyobject){
+    console.log(`Username is ${anyobject.username} and price is ${anyobject.prices}`);
+
+}
+handledobject(user);
